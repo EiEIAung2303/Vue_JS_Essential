@@ -1,8 +1,26 @@
-import Vue from 'vue'
-import App from './App.vue'
+//11.Stirngs Fincton
+let firstName = "This is a string     ";
+let secondName = " I am new one";
 
-Vue.config.productionTip = false
+//character numbers include space
+console.log(firstName.length);
+//(need indexnumber)
+console.log(firstName.charAt(3));
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+console.log(firstName.concat(secondName));
+console.log(firstName.concat(" I am new two"));
+
+console.log(firstName.indexOf("g"));
+console.log(firstName.indexOf("b"));
+
+console.log(firstName.replace("This","That"));
+
+console.log(firstName.split(""));
+
+console.log(firstName.toLocaleUpperCase());
+console.log(firstName.toLocaleLowerCase());
+
+console.log(firstName.length);
+console.log(firstName.trim().length);
+  
+
